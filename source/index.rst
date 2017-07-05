@@ -12,6 +12,7 @@ Welcome to LetsChat's documentation!
    :numbered:
 
    Introduction <intro>
+   Tutorial <tut>
    Architecture <arch>
 
 Indices and tables
