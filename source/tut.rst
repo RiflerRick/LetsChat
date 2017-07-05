@@ -2,8 +2,10 @@
 Tutorial
 ========
 
+This tutorial will show you how to set up both the server and the client.
+
 Pre-requisites
-=============
+==============
 There are 2 pre-requisites for installing the application.
 
 - Python 3.6.0 must be installed in your system. In case you do not have python 3.6.0 installed head over to the official `download site`_ of python. The official site contains all required documentation for installing python in your local machine. 

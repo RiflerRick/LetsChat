@@ -1,5 +1,7 @@
 #!/usr/bin/python
-
+"""
+.. automodule:: serverSocket
+"""
 import socket                               # Import socket module
 from clientThread import ClientThread
 s = socket.socket()                         # Create a socket object

@@ -1,5 +1,7 @@
 #!/usr/bin/python
-
+"""
+.. automodule:: clientSocket
+"""
 import socket                               # Import socket module
 from readingThread import ReadingThread
 from writingThread import WritingThread

@@ -6,14 +6,14 @@
 Welcome to LetsChat's documentation!
 ====================================
 
-.. toctree::
+.. toctree:: 
    :maxdepth: 2
    :caption: Contents:
    :numbered:
 
    Introduction <intro>
    Tutorial <tut>
-   Architecture <arch>
+   API Reference <arch>
 
 Indices and tables
 ==================
