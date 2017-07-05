@@ -29,6 +29,29 @@ Server
 
         :rtype: None
 
+.. py:module:: clientThreadReadHandle
+
+.. py:class:: ClientThreadReadHandle
+    
+    The ClientThreadReadHandle is a thread class. Its instance is created as a thread that is spawned by the ClientThread class. It is used for the purpose of handling communication between a server and a specific client. It reads data that is sent by client and broadcasts it to all other clients
+
+    .. py:method:: __init__(self, threadID, name, counter, clientSocket, allClients)
+
+        This __init__ method overrides the __init__ function of the Thread class in the threading module. It calls the __init__ function to actually create an instance of the Thread class. It then initializes other variables to be required by the thread.
+
+        :param threadID: unique ID given to each thread
+        :param name: name given to the thread
+        :param counter: number of threads of this name generated
+        :param clientSocket: Socket instance of the client.
+        :param allClients: a list of Socket instances of all clients connected to the server
+        :rtype: None
+
+    .. py:method:: run(self)
+
+        This method is executed when a thread is started. Here the run method checks the client it is assigned to for any messages and if found broadcasts it to all other clients connected to the server.
+
+        :rtype: None
+
 Client
 ------
 
